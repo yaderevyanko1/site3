@@ -121,6 +121,7 @@ section img {
 .gallery2 {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
    
 
     
