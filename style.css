@@ -93,6 +93,10 @@ section img {
     height: auto;
 }
 
+.product p{
+    text-align: center;
+}
+
 .reviews {
     margin-top: 20px;
 }
