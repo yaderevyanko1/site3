@@ -21,7 +21,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-     
+
 }
 
 nav ul {
@@ -33,9 +33,10 @@ nav ul {
 }
 
 nav ul li {
-   display: inline-block;
+    display: inline-block;
 
 }
+
 nav ul li a {
     text-decoration: none;
     color: #444;
@@ -45,8 +46,8 @@ nav ul li a {
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
-    
-    
+
+
 nav ul li a:hover {
     background-color: #ffcc33;
     color: #fff;
@@ -78,9 +79,9 @@ section img {
 }
 
 .product:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-     }
+}
 
 .product {
     background-color: #fdf8e1;
@@ -93,7 +94,7 @@ section img {
     height: auto;
 }
 
-.product p{
+.product p {
     text-align: center;
 }
 
@@ -113,19 +114,15 @@ section img {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
-    
-    
-    
+
 }
 
 .gallery2 {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-   
 
-    
-    }
+}
 
 .gallery img {
     width: 200px;
@@ -149,13 +146,13 @@ form {
 footer {
     background-color: #333;
     color: #fff;
-    
+
     padding: 10px;
     margin-top: 20px;
 }
 
-footer p{
-text-align: center;
+footer p {
+    text-align: center;
 }
 
 .article-but {
@@ -214,7 +211,9 @@ h2 {
     font-size: 28px;
     color: #444;
     font-family: 'Georgia', serif;
-    margin: 0;}
+    margin: 0;
+}
+
 .soc {
     position: fixed;
     right: 0px;
@@ -236,16 +235,23 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
-p{
-    text-align: justify; 
-    
+
+p {
+    text-align: justify;
+
 }
+
 .contact {
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
     display: flex;
+}
+
+iframe {
+    border: 2px solid brown;
+    border-radius: 10px;
 }
